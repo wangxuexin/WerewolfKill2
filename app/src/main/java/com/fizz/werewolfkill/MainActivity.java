@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
 
                 mAgentWeb.getJsEntraceAccess().quickCallJs("WXLogin", name, img, id);
 //                mAgentWeb.getLoader().loadUrl("http://www.baidu.com");
-                Log.i("flag", "run: +wxLogin");
+                Log.i("flag", "Main: +wxLogin");
             }
         });
     }
